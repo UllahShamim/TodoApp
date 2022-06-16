@@ -80,6 +80,9 @@ const Home = () => {
     return (
         <View style={{flex:1}}>
             <View style={styles.formContainer}>
+                <View>
+                    <Text>This is connected up to firestore</Text>
+                </View>
                 <TextInput 
                     style={styles.input}
                     placeholder='Add a new Todo'
